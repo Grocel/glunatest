@@ -44,8 +44,9 @@ It is meant to be an inspiration for other developers.
 - Performance and memory footprint might not be optimal.
 - No continuous integration/deployment.
 
+
 ## Install
-Install this as a Garry's Mod addon.
+Install this as a Garry's Mod addon.!
 
 
 ## Usage
@@ -145,6 +146,15 @@ If needed you can add addional files to run in `setup.txt`.
 
 ### Emulator Helper
 Emulator helpers are plugins that are run on every test run. They custom add functions to the testing environment.
+
+
+## Images
+> [!TIP]
+> The immages are slightly outdated, you might want to take a look yourself ingame.
+
+![server-console](https://github.com/user-attachments/assets/f9a6937e-7a5c-44ab-83e9-bd548b25edbe)
+![ingame](https://github.com/user-attachments/assets/5f4c4a8c-5bad-4ecb-82bb-46b363594e5f)
+![diff](https://github.com/user-attachments/assets/ab4f4206-3b4b-4841-afe6-77d30ab55e48)
 
 
 [Garry's Mod]: <http://garrysmod.com/>
