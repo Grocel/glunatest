@@ -150,7 +150,7 @@ Emulator helpers are plugins that are run on every test run. They custom add fun
 
 ## Images
 > [!TIP]
-> The immages are slightly outdated, you might want to take a look yourself ingame.
+> The immages are slightly outdated. You might want to have a look yourself ingame.
 
 ![server-console](https://github.com/user-attachments/assets/f9a6937e-7a5c-44ab-83e9-bd548b25edbe)
 ![ingame](https://github.com/user-attachments/assets/5f4c4a8c-5bad-4ecb-82bb-46b363594e5f)
