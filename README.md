@@ -1,12 +1,11 @@
 # GLunaTest
 GLunaTest is tool for running automatic tests for [Garry's Mod][] Lua. It is based on [Lunatest][]. Not to be confused with [CFC GLuaTest][]!
 
-I developed this project in 2019, but never released it, because I do not have the time to long term maintain and document this project.
-
+I developed this project in 2019, but never released it, because I do not have the time to long term maintain and document this project.\
 It is quite far developed with the basics basically set.
 
 > [!WARNING]
-> I do not recommend using this in production environments.
+> I do not recommend using this in production environments.\
 > The code is quite hacky at places and might not be suitable for every user environment.
 
 
@@ -14,7 +13,7 @@ It is quite far developed with the basics basically set.
 > [!IMPORTANT]
 > This project has been discontinued in favour to [CFC GLuaTest][].
 
-This project is unlikly to get any updates or further development.
+This project is unlikly to get any updates or further development.\
 As an effect of this discontinuation I will not add more documentation.
 
 It is meant to be an inspiration for other developers.
@@ -54,8 +53,7 @@ This addon is an developer tool, thus it requites advanced Lua developer skills.
 It works out of the box.
 
 ### Getting started
-Enter `cl_glunatest_help` or `sv_glunatest_help` into the console ingame.
-
+Enter `cl_glunatest_help` or `sv_glunatest_help` into the console ingame to view the list of command.\
 Enter `cl_glunatest` or `sv_glunatest` to run all tests. This addon ships with some tests as an example.
 
 
@@ -104,15 +102,15 @@ sv_glunatest_reload:
 > Each of them have a `cl_*` counter part for the clientside.
 
 ### Config
-This addon comes with a default config at: `data_static/glunatest/config`
-If you want to override or change config parameters, you can copy the files to your data folder. The system will also load it from there.
+This addon comes with a default config at: `data_static/glunatest/config`\
+If you want to override or change config parameters, you can copy the files to your data folder. The system will also load it from there.\
 These default configs are an example of how you could setup your testing. They run out of the box.
 
-The files `config/config.txt`, `config/client/config.txt`, `config/server/config.txt` are loaded on start up or on `cl/sv_glunatest_reload`.
+The files `config/config.txt`, `config/client/config.txt`, `config/server/config.txt` are loaded on start up or on `cl/sv_glunatest_reload`.\
 The files `config/setup.txt`, `config/client/setup.txt`, `config/server/setup.txt` are loaded on every test run (`cl/sv_glunatest`).
 
 #### Filepaths
-You may see paths such as `SELFLUA:tests/client/test-glunatest-client.lua`.
+You may see paths such as `SELFLUA:tests/client/test-glunatest-client.lua`.\
 The `SELFLUA` is the base bath. The path after the `:` is relative to that. 
 
 These base paths are supported:
@@ -140,7 +138,7 @@ These base paths are supported:
 ### Test scripts
 The location of test scripts can be configured in `setup.txt`.
 
-In this addon they are located at `lua\glunatest\tests`.
+In this addon they are located at `lua\glunatest\tests`.\
 If needed you can add addional files to run in `setup.txt`.
 
 
