@@ -118,4 +118,5 @@ Emulator helpers are plugins that are run on every test run. They custom add fun
 
 
 [Garry's Mod]: <http://garrysmod.com/>
+[Lunatest]: <https://github.com/silentbicycle/lunatest>
 [CFC GLuaTest]: <https://github.com/CFC-Servers/GLuaTest>
