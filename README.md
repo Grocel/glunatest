@@ -1,5 +1,6 @@
 # GLunaTest
-GLunaTest is tool for running automatic tests for [Garry's Mod][] Lua. It is based on [Lunatest][]. Not to be confused with [CFC GLuaTest][]!
+GLunaTest is tool for running automatic tests for [Garry's Mod][] Lua. It is based on [Lunatest][].\
+Not to be confused with [CFC GLuaTest][]! It is not related to this project.
 
 I developed this project in 2019, but never released it, because I do not have the time to long term maintain and document this project.\
 It is quite far developed with the basics basically set.
