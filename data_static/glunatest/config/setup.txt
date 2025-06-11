@@ -1,0 +1,40 @@
+{
+	"emulatorhelper": [
+		{
+			"file": "SELFLUA:emulatorhelper/gmod.lua",
+			"priority": 10000,
+		}
+	],
+	"clientlua": {
+		"files": [
+			"SELFLUA:lunatest.lua",
+		],
+		"folders": [
+			"SELFLUA:emulatorhelper/",
+		],
+	},
+	"projects": [
+		{
+			"name": "glunatest",
+			"test": [
+				"SELFLUA:tests/test-class.lua",
+				"SELFLUA:tests/test-hash.lua",
+				"SELFLUA:tests/test-lunatest.lua",
+				"SELFLUA:tests/test-glunatest.lua",
+				"SELFLUA:tests/test-gmod.lua",
+				"SELFLUA:tests/test-networking.lua"
+			],
+			"clientlua": {
+				"files": [
+				],
+				"folders": [
+					"SELFLUA:tests/",
+				],
+			},
+			"emulatorhelper": []
+		}
+	],
+	"properties": {
+		"test123": "test",
+	},
+}

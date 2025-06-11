@@ -1,0 +1,9 @@
+{
+	"plattform": {
+		"ingame": {
+			"colormode": "DEFAULT",
+		},
+		
+		"cli": {},
+	},
+}

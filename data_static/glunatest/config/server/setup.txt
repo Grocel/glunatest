@@ -1,0 +1,10 @@
+{
+	"projects": [
+		{
+			"test": [
+				"SELFLUA:tests/server/test-glunatest-server.lua",
+			],
+			"name": "glunatest",
+		}
+	]
+}
